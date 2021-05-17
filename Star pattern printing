@@ -9,3 +9,25 @@ if choice==True:
 else:
   for i in range(num):
     print("*"*(num-i))
+    
+#or------>
+
+
+num=int(input("Write the number you want to print:\n"))
+condition=int(input("Type 1 for true and 0 for false:\n"))
+choice=bool(condition)
+if choice==True:
+  i=0
+  while(True):
+    print("*"*i)
+    if i==num:
+      break
+    i=i+1
+else:
+  j=num
+  while(True):
+    print("*"*j)
+    if j==0:
+      break
+    j=j-1
+   
