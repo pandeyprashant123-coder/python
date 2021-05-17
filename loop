@@ -1,0 +1,42 @@
+#list1=[["pandey",1],["anday",2],["chandey",3] ,["funday",4]]
+#dict1=dict(list1)
+#for item in dict1:
+ # print(item)
+
+#for item,lollypop in dict1.items():
+ # print(item,"lolly is",lollypop)
+ 
+ 
+ #quiz
+list=["prashant",3,4,66,77,4,6,2,1,0,"camel","rhino",int,float]
+for item in list:
+  if type(item)==int and item>=6:
+    print(item)
+
+#while loop
+i=0
+while(i<45):
+  print(i+1,end=" ")
+  i=i+1
+
+
+#i=0
+#while(True):
+#  if i+1<8:
+#  i=i+1
+#    continue
+#  print(i+1,end=" ")
+#  if(i==46):
+#    break#to stop loop
+#  i=i+1
+  
+#quiz
+while(True):
+  inp=int(input("Enter a number\n"))
+  if inp>100:
+    print("you entered a right number\n")
+    break
+  else:
+    print("Try again\n")
+    continue
+
