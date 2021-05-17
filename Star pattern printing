@@ -1,0 +1,11 @@
+#pattern printing 
+print("Enter a  lucky number for star pattern\n")
+num = int(input())
+condition=int(input("Enter 0 or 1\n"))
+choice=bool(condition)
+if choice==True:
+  for i in range(num):
+    print("*"*i)
+else:
+  for i in range(num):
+    print("*"*(num-i))
