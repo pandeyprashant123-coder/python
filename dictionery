@@ -1,0 +1,7 @@
+#create dictionary and take input from the user and return meaning of the input
+print("The dictionary")
+print("Type the word:")
+d1={"mutible":"can be changed","immutable":"cannot be changed","tidious":"hard","useful":"can be used"}
+meaning=input()
+print("your meaning is:")
+print(d1[meaning])
