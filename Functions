@@ -1,0 +1,29 @@
+#a=9
+#b=8
+#c=sum((a,b)) #built in functions
+
+def function1(a,b):
+  print("you are in function1",a+b)
+#function1(3,4)
+
+def function2(a,b):
+  """This is a function that gives average"""
+  average = (a+b)/2
+  #print(average)
+  return average
+#v=function2(5,7)
+#print(v)
+print(function2.__doc__)#doc string command
+
+
+#try na dexception handeling
+print("Enter a num 1")
+num1=input()
+print("Enter a num 2")
+num2=input()
+try:
+  print("The sum of these two number is",
+  int(num1)+int(num2))
+except Exception as e:
+  print(e)
+print("this line is importanr")
