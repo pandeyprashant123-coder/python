@@ -5,3 +5,17 @@ d1={"mutible":"can be changed","immutable":"cannot be changed","tidious":"hard",
 meaning=input()
 print("your meaning is:")
 print(d1[meaning])
+
+
+#sets
+s=set()
+#print(type(s))
+#=[1,2,3,4,5]
+#s1=set(l)
+#print(s1)
+s.add(1)
+s.add(2)
+#s2=s.intersection({1,2,3})
+s2={4,6}
+#print(s,s2)
+print(s.isdisjoint(s2))
